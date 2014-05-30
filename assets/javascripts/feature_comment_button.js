@@ -7,7 +7,7 @@ Discourse.PostMenuView.reopen({
     if (post.get('topic.category.id') !== 8) return;
 
     buffer.push("<button class='create' data-action='feature' title='Feature this comment'>");
-    buffer.push("<i class='fa fa-paper-plane'></i>");
+    buffer.push("<i class='fa fa-exchange'></i>");
     buffer.push("</button>");
   },
 
